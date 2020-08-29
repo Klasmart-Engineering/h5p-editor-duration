@@ -161,6 +161,7 @@ H5PEditor.widgets.duration = H5PEditor.Duration = (function ($) {
       }
 
       duration[field.name] = value;
+      that.params[field.name] = value;
     });
 
     // Check that "To" time always is after "From" time.
